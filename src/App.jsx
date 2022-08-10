@@ -1,4 +1,5 @@
 import './App.css';
+import NavBar from './components/navbar/NavBar';
 import SideBar from './components/sidebar/SideBar';
 
 function App() {
@@ -7,6 +8,11 @@ function App() {
       <aside>
         <SideBar />
       </aside>
+      <main>
+        <nav>
+        <NavBar />
+        </nav>
+      </main>
     </div>
   );
 }
