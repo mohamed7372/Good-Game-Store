@@ -1,0 +1,58 @@
+.announce {
+    background-color: var(--dark-color);
+    border-radius: 5px;
+    position: relative;
+}
+
+.announce > img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 200px;
+}
+
+.announce .details {
+    width: calc(100%/3);
+    margin-left: 50px;
+    padding: 50px 0 50px 50px;
+}
+
+.announce .details .rating img {
+    width: 16px;
+}
+
+.announce .details h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.announce .details > h2 span:first-of-type {
+    color: var(--second-color);
+    opacity: .7;
+}
+
+.announce .details > h2 span:last-of-type {
+    color: var(--main-color);
+}
+
+.announce .details hr {
+    background-color: var(--second-color);
+    height: 2px;
+    margin: 10px 0;
+    border: none;
+    width: 50%;
+}
+
+.announce .details > p {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.announce .details .buttons {
+    display: flex;
+    width: 100%;
+}
+
+.announce .details .buttons > * {
+    margin-right: 15px;
+}
