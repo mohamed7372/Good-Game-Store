@@ -1,0 +1,100 @@
+{
+  "menus":[
+    {
+      "title": "profile",
+      "icon": "",
+      "id": 1
+    },
+    {
+      "title": "search",
+      "icon": "",
+      "id": 2
+    },
+    {
+      "title": "favorite",
+      "icon": "",
+      "id": 3
+    },
+    {
+      "title": "balance",
+      "icon": "",
+      "id": 4
+    }
+  ],
+  "helps":[
+    {
+      "title": "help",
+      "icon": "",
+      "id": 1
+    },
+    {
+      "title": "conditions",
+      "icon": "",
+      "id": 2
+    },
+    {
+      "title": "confidentiality",
+      "icon": "",
+      "id": 3
+    }
+  ],
+  "social_media":[
+    {
+      "icon": "",
+      "id": 1
+    },
+    {
+      "icon": "",
+      "id": 2
+    },
+    {
+      "icon": "",
+      "id": 3
+    },
+    {
+      "icon": "",
+      "id": 4
+    },
+    {
+      "icon": "",
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "title": "computer mouse",
+      "icon": "",
+      "id": 1
+    },
+    {
+      "title": "game headphones",
+      "icon": "",
+      "id": 2
+    },
+    {
+      "title": "gamepads",
+      "icon": "",
+      "id": 3
+    },
+    {
+      "title": "VR glasses",
+      "icon": "",
+      "id": 4
+    },
+    {
+      "title": "keyboards",
+      "icon": "",
+      "id": 5
+    },
+    {
+      "title": "computers",
+      "icon": "",
+      "id": 6
+    },
+    {
+      "title": "games",
+      "icon": "",
+      "id": 7
+    }
+  ]
+}
