@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/footer/Footer';
 import NavBar from './components/navbar/NavBar';
 import SideBar from './components/sidebar/SideBar';
 
@@ -9,9 +10,9 @@ function App() {
         <SideBar />
       </aside>
       <main>
-        <nav>
         <NavBar />
-        </nav>
+        <article></article>
+        <Footer />
       </main>
     </div>
   );

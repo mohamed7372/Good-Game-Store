@@ -5,3 +5,7 @@
 .App > main {
     width: 100%;
 }
+
+.App > main > article {
+    height: 700px;
+}
