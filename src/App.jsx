@@ -15,7 +15,7 @@ function App() {
         <article>
           <Home/>
         </article>
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </div>
   );

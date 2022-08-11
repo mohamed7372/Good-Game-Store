@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+// npx json-server --watch data/db.json --port 8000
+
 const useFetch = (url) => {
 
     const [data, setData] = useState(null);
