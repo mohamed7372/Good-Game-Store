@@ -1,0 +1,10 @@
+.catalog {
+    height: 100%;
+    width: 220px;
+    background-color: var(--dark-color);
+    padding: 0 20px;
+}
+
+.catalog>* {
+    margin-bottom: 20px;
+}
