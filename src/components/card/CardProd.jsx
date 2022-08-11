@@ -1,6 +1,6 @@
 import './Card.css';
 
-const Card = ({prod}) => {
+const CardProd = ({prod}) => {
     return (  
         <div className="card">
             <img src={process.env.PUBLIC_URL + `/assets/icons/profile-ic.png`} />
@@ -15,4 +15,4 @@ const Card = ({prod}) => {
     );
 }
  
-export default Card;
+export default CardProd;

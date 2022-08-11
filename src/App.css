@@ -1,11 +1,7 @@
-.App {
+.App .content {
     display: flex;
 }
 
-.App > main {
+.App .content > main {
     width: 100%;
-}
-
-.App > main > article {
-    height: 700px;
 }

@@ -10,11 +10,9 @@ const Home = () => {
     return (  
         <div className="home">
             <Announce />
-            <Fillter title='our products' caption='categories' showBtn={true}/>
-            <CardList />
-
+            <CardList title='our products' caption='categories'/>
             <Fillter title='our products' caption='categories'/>
-            <Fillter title='our games' caption='games' showBtn={true} />
+            <CardList typeCard={2} title='our games' caption='games'/>
         </div>
     );
 }

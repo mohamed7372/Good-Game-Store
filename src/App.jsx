@@ -7,16 +7,18 @@ import Home from './pages/home/Home';
 function App() {
   return (
     <div className="App">
-      <aside>
-        <SideBar />
-      </aside>
-      <main>
-        <NavBar />
-        <article>
-          <Home/>
-        </article>
-        {/* <Footer /> */}
-      </main>
+      <div className="content">
+        <aside>
+          <SideBar />
+        </aside>
+        <main>
+          <NavBar />
+          <article>
+            <Home/>
+          </article>
+          <Footer />
+        </main>
+      </div> 
     </div>
   );
 }
