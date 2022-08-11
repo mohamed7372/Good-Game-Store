@@ -109,7 +109,82 @@
     font-weight: bold;
 }
 
-.card-game .details > img {
+.card-game .details>img {
     width: 30px;
     height: 30px;
+}
+
+/* big card style 1 */
+.big-card {
+    height: 280px;
+    border: 3px solid var(--gray-color);
+    border-radius: 5px;
+    padding: 20px 0 20px 50px;
+    text-transform: capitalize;
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.big-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.big-card .cat {
+    position: absolute;
+    right: 200px;
+    bottom: 30px;
+    font-size: 90px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: right;
+    color: var(--second-color);
+    opacity: .3;
+}
+
+.big-card h6 {
+    color: #888;
+}
+
+.big-card .price {
+    color: var(--main-color);
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.big-card .details {
+    color: #888;
+    font-size: 12px;
+    width: 230px;
+    margin-top: 6px;
+}
+
+.big-card .btn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: fit-content;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.big-card .btn>p {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.big-card.act {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.big-card.act h6,
+.big-card.act p {
+    color: #ccc !important;
+}
+
+.big-card.act .btn p {
+    color: white !important;
 }

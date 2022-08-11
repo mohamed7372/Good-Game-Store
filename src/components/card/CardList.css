@@ -5,3 +5,12 @@
 
     margin-bottom: 60px;
 }
+
+/* big card list style */
+.big-cards {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0 20px;
+
+    margin-bottom: 60px;
+}

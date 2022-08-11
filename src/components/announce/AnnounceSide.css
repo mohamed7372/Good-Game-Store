@@ -1,0 +1,38 @@
+.announce-side {
+    background-color: var(--main-color);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.announce-side h1 {
+    font-size: 40px;
+    color: #2f1173;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.announce-side span,
+.announce-side p:first-of-type {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.announce-side p span {
+    background-color: #643fb0;
+    padding: 3px 15px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+.announce-side p:last-of-type {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+}

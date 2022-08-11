@@ -8,4 +8,5 @@
 
 .App .content > aside {
     display: flex;
+    background-color: var(--dark-color);
 }

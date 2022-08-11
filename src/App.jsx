@@ -1,4 +1,5 @@
 import './App.css';
+import AnnounceSide from './components/announce/AnnounceSide';
 import Catalog from './components/catalog/Catalog';
 import Footer from './components/footer/Footer';
 import NavBar from './components/navbar/NavBar';
@@ -7,13 +8,16 @@ import Home from './pages/home/Home';
 
 function App() {
 
-  const show = true;
+  const show = false;
 
   return (
     <div className="App">
       <div className="content">
         <aside>
-          <SideBar />
+          <section>
+            <SideBar />
+            <AnnounceSide />
+          </section>
           {show && <Catalog />}
         </aside>
         <main>
